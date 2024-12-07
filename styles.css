@@ -64,33 +64,6 @@ body, html {
   animation: revealDate 1s 2s forwards;
 }
 
-/* Animación del glitch en el fondo */
-@keyframes glitch {
-  0% {
-    transform: translateX(0);
-    text-shadow: -2px -2px 0 red, 2px 2px 0 red;
-  }
-  20% {
-    transform: translateX(-2px);
-    text-shadow: -4px -4px 0 red, 4px 4px 0 red;
-  }
-  40% {
-    transform: translateX(4px);
-    text-shadow: -6px -6px 0 red, 6px 6px 0 red;
-  }
-  60% {
-    transform: translateX(-4px);
-    text-shadow: -8px -8px 0 red, 8px 8px 0 red;
-  }
-  80% {
-    transform: translateX(2px);
-    text-shadow: -10px -10px 0 red, 10px 10px 0 red;
-  }
-  100% {
-    transform: translateX(0);
-    text-shadow: -2px -2px 0 red, 2px 2px 0 red;
-  }
-}
 
 /* Animación para mostrar la fecha */
 @keyframes revealDate {
